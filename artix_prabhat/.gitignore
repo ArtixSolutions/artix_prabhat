@@ -1,0 +1,17 @@
+# Ignore everything with * wildcard
+*
+# Include all folders
+!*/
+# Include only these files
+!/.gitignore
+!/composer.json
+!/composer.lock
+!web/sites/default/files/sync/artix/*.yml
+!web/sites/default/files/sync/accredify/*.yml
+!web/sites/default/files/sync/artemis/*.yml
+!web/sites/default/files/sync/abstain/*.yml
+!web/sites/default/files/sync/indianstore/*.yml
+!web/sites/default/files/sync/mytesla/*.yml
+
+# sites.php file to point all the sites to their corresponding site directory to read individual settings.php
+!web/sites/sites.php

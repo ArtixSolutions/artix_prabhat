@@ -1,0 +1,21 @@
+additional_hostnames:
+  - accredify
+  - artemis
+  - artix
+  - abstain
+  - indianstore
+  - mytesla
+hooks:
+  post-start:
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS accredify; GRANT ALL ON accredify.* to 'db'@'%';"
+    service: db
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS artemis; GRANT ALL ON artemis.* to 'db'@'%';"
+    service: db
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS artix; GRANT ALL ON artix.* to 'db'@'%';"
+    service: db
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS abstain; GRANT ALL ON abstain.* to 'db'@'%';"
+    service: db
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS indianstore; GRANT ALL ON indianstore.* to 'db'@'%';"
+    service: db
+  - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS mytesla; GRANT ALL ON mytesla.* to 'db'@'%';"
+    service: db
