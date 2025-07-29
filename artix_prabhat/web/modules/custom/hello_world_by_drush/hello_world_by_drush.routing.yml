@@ -1,0 +1,17 @@
+hello_world_by_drush.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\hello_world_by_drush\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+
+
+hello_world_by_drush.hello:
+  path: '/hello'
+  defaults:
+    _title: 'Hello World First Route'
+    _controller: '\Drupal\hello_world_by_drush\Controller\HelloWorldByDrushController::helloWorldByDrush'
+  requirements:
+    _permission: 'access content'

@@ -15,3 +15,12 @@
 
 # sites.php file to point all the sites to their corresponding site directory to read individual settings.php
 !web/sites/sites.php
+
+# custom modules
+!web/modules/custom/
+!web/modules/custom/hello_world_by_drush/*.*
+!web/modules/custom/hello_world_by_drush/config/*.*
+!web/modules/custom/hello_world_by_drush/config/schema/*.*
+!web/modules/custom/hello_world_by_drush/src/*.*
+!web/modules/custom/hello_world_by_drush/src/Controller/*.*
+!web/modules/custom/hello_world_by_drush/src/Form/*.*

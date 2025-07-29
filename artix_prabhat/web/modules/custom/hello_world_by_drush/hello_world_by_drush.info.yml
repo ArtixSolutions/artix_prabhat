@@ -1,0 +1,10 @@
+name: 'hello_world_by_drush'
+type: module
+description: 'Hello World Module Created via Drush Command'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:views
+  - ctools:ctools
+#configure: module_name.configuration_route_name
+configure: hello_world_by_drush.settings
