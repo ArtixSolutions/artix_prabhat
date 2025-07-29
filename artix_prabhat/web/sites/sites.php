@@ -68,3 +68,10 @@
   $sites['www.artix.solutions'] = 'artix';
   $sites['www.indianstore.world'] = 'indianstore';
   $sites['www.mytesla.world'] = 'mytesla';
+    
+  $sites['accredify.me'] = 'accredify';
+  $sites['artemis.army'] = 'artemis';
+  $sites['abstain.guru'] = 'abstain';
+  $sites['artix.solutions'] = 'artix';
+  $sites['indianstore.world'] = 'indianstore';
+  $sites['mytesla.world'] = 'mytesla';

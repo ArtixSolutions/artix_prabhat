@@ -1,0 +1,24 @@
+uuid: 49b42d26-5471-454a-aa80-7a34a7db55d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.content_type_for_prabhats_slider
+  module:
+    - text
+id: node.content_type_for_prabhats_slider.body
+field_name: body
+entity_type: node
+bundle: content_type_for_prabhats_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

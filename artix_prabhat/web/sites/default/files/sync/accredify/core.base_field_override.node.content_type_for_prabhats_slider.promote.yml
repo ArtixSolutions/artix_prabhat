@@ -1,0 +1,22 @@
+uuid: 24c58eb4-c850-4e54-b794-ae44f0201dc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.content_type_for_prabhats_slider
+id: node.content_type_for_prabhats_slider.promote
+field_name: promote
+entity_type: node
+bundle: content_type_for_prabhats_slider
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

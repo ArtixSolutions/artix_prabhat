@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: tNMzFUoCsyzbiyXXLCgheS-krVS_O0GUMsS0qCLX0BI
 revisioning: false
 durod: true
 default_close: 0
@@ -10,7 +8,7 @@ autotitle_length: 128
 pager_start: 50
 pager_siblings: 5
 time_limit_buffer: 5
-has_timer: false
+has_timer: true
 timer_format: '%-H h %M min %S sec'
 admin_review_options_end:
   attempt: true

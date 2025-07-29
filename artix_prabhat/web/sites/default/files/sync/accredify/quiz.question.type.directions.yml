@@ -1,0 +1,11 @@
+uuid: 44727536-4cf2-4913-99bf-4fb2749b03a3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_directions
+_core:
+  default_config_hash: YVeLTn4_qHzr21tGk5w5s9-IU7BKuknexo-NMLmNNUA
+id: directions
+label: 'Directions question'

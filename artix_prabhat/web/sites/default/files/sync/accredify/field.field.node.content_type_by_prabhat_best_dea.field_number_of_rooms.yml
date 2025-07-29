@@ -1,0 +1,19 @@
+uuid: 5c7cc643-15eb-4036-9cac-ed3827833232
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_rooms
+    - node.type.content_type_by_prabhat_best_dea
+id: node.content_type_by_prabhat_best_dea.field_number_of_rooms
+field_name: field_number_of_rooms
+entity_type: node
+bundle: content_type_by_prabhat_best_dea
+label: 'Number of rooms'
+description: 'Help Text - Number of rooms'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

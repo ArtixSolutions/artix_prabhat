@@ -1,0 +1,143 @@
+uuid: 0349be39-7e54-4ce5-b664-03fb5d6da291
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content_type_by_prabhat_best_dea.body
+    - field.field.node.content_type_by_prabhat_best_dea.field_field_for_prabhats_taxonom
+    - field.field.node.content_type_by_prabhat_best_dea.field_floor_number
+    - field.field.node.content_type_by_prabhat_best_dea.field_image_in_best_deal_content
+    - field.field.node.content_type_by_prabhat_best_dea.field_number_of_rooms
+    - field.field.node.content_type_by_prabhat_best_dea.field_parking_availability
+    - field.field.node.content_type_by_prabhat_best_dea.field_payment_process
+    - field.field.node.content_type_by_prabhat_best_dea.field_total_property_space
+    - image.style.thumbnail
+    - node.type.content_type_by_prabhat_best_dea
+  module:
+    - image
+    - path
+    - text
+id: node.content_type_by_prabhat_best_dea.default
+targetEntityType: node
+bundle: content_type_by_prabhat_best_dea
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_field_for_prabhats_taxonom:
+    type: entity_reference_autocomplete
+    weight: 122
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_floor_number:
+    type: string_textfield
+    weight: 124
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_in_best_deal_content:
+    type: image_image
+    weight: 128
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_number_of_rooms:
+    type: string_textfield
+    weight: 125
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_parking_availability:
+    type: boolean_checkbox
+    weight: 126
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_payment_process:
+    type: string_textarea
+    weight: 127
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_total_property_space:
+    type: string_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

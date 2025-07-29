@@ -1,0 +1,29 @@
+uuid: 640e0cd9-09a9-49a8-ae9a-68157881cca8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_for_prabhats_taxonom
+    - node.type.content_type_by_prabhat_best_dea
+    - taxonomy.vocabulary.taxonomy_for_best_deal_types
+id: node.content_type_by_prabhat_best_dea.field_field_for_prabhats_taxonom
+field_name: field_field_for_prabhats_taxonom
+entity_type: node
+bundle: content_type_by_prabhat_best_dea
+label: Field_for_Prabhats_Taxonomy_for_Deal_Types
+description: 'Help Text - Field_for_Prabhats_Taxonomy_for_Deal_Types'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      taxonomy_for_best_deal_types: taxonomy_for_best_deal_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -12,15 +12,32 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+            "name": "hilios/jquery-countdown",
+            "version": "2.2.0",
+            "type": "drupal-library",
+            "dist": {
+                "url": "https://github.com/hilios/jQuery.countdown/archive/refs/tags/2.2.0.zip",
+                "type": "zip"
+                }
+            }
         }
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/config_split": "^2.0",
         "drupal/core-composer-scaffold": "^10.4",
         "drupal/core-project-message": "^10.4",
         "drupal/core-recommended": "^10.4",
+        "drupal/ctools": "^4.1",
+        "drupal/devel": "^5.4",
         "drupal/quiz": "^7.0",
-        "drush/drush": "^13.6"
+        "drupal/webprofiler": "^10.3",
+        "drush/drush": "^13.6",
+        "hilios/jquery-countdown": "2.2.0"
     },
     "conflict": {
         "drupal/drupal": "*"

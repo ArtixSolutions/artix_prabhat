@@ -1,0 +1,19 @@
+uuid: 7d949cf0-7ec8-47d0-9614-ed2c29272205
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_property_space
+    - node.type.content_type_by_prabhat_best_dea
+id: node.content_type_by_prabhat_best_dea.field_total_property_space
+field_name: field_total_property_space
+entity_type: node
+bundle: content_type_by_prabhat_best_dea
+label: 'Total Property Space'
+description: 'Help Text - Total Property Space'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: 8bdda21f-e896-48e6-a306-03157d8fd918
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_short_answer
+_core:
+  default_config_hash: QPePIwNg7a3dy0qwRti8EiF7QtjQTpt4iS8bGoaZ_Wg
+id: short_answer
+label: 'Short answer question'

@@ -1,0 +1,9 @@
+uuid: 49c77898-ca14-466c-b9b1-c972823e0136
+langcode: en
+status: true
+dependencies: {  }
+name: 'Taxonomy for Best Deal Types'
+vid: taxonomy_for_best_deal_types
+description: 'Description - Taxonomy for Best Deal Types'
+weight: 0
+new_revision: true

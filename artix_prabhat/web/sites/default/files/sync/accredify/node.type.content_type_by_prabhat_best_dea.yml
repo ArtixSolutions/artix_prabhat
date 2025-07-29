@@ -1,0 +1,17 @@
+uuid: 8f06e821-e92a-49bd-9dd8-c7c21a89a610
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Content Type by Prabhat - Best Deals'
+type: content_type_by_prabhat_best_dea
+description: 'Description - Content Type by Prabhat - Best Deals '
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: 823d69a2-01ee-4e2c-8321-18a6afcf1b5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_floor_number
+    - node.type.content_type_by_prabhat_best_dea
+id: node.content_type_by_prabhat_best_dea.field_floor_number
+field_name: field_floor_number
+entity_type: node
+bundle: content_type_by_prabhat_best_dea
+label: 'Floor Number'
+description: 'Help Text - Floor Number'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

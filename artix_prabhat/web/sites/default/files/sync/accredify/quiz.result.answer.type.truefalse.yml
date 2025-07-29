@@ -1,0 +1,11 @@
+uuid: bac78810-5665-4f1c-af15-b0dc39d02d01
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_truefalse
+_core:
+  default_config_hash: k1AIO2B9BNJS3KJ2_QcYrXs_sUSb30FXAhfCIneiGmk
+id: truefalse
+label: 'True/false response'

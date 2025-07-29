@@ -1,0 +1,96 @@
+uuid: 20d6c5ed-1865-45c7-9078-6dc79a379181
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content_type_by_prabhat_best_dea.body
+    - field.field.node.content_type_by_prabhat_best_dea.field_field_for_prabhats_taxonom
+    - field.field.node.content_type_by_prabhat_best_dea.field_floor_number
+    - field.field.node.content_type_by_prabhat_best_dea.field_image_in_best_deal_content
+    - field.field.node.content_type_by_prabhat_best_dea.field_number_of_rooms
+    - field.field.node.content_type_by_prabhat_best_dea.field_parking_availability
+    - field.field.node.content_type_by_prabhat_best_dea.field_payment_process
+    - field.field.node.content_type_by_prabhat_best_dea.field_total_property_space
+    - node.type.content_type_by_prabhat_best_dea
+  module:
+    - image
+    - text
+    - user
+id: node.content_type_by_prabhat_best_dea.default
+targetEntityType: node
+bundle: content_type_by_prabhat_best_dea
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_field_for_prabhats_taxonom:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_floor_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_image_in_best_deal_content:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_number_of_rooms:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_parking_availability:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_payment_process:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_total_property_space:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: de2d9a5c-3dd1-44eb-b981-2c0cd88d8fda
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_payment_process
+    - node.type.content_type_by_prabhat_best_dea
+id: node.content_type_by_prabhat_best_dea.field_payment_process
+field_name: field_payment_process
+entity_type: node
+bundle: content_type_by_prabhat_best_dea
+label: 'Payment Process'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

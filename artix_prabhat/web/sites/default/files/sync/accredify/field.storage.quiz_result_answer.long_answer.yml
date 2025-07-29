@@ -1,0 +1,24 @@
+uuid: 5c0a0daa-9376-40d5-a236-d9c7abc7c7b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - quiz
+    - text
+  enforced:
+    module:
+      - quiz_long_answer
+_core:
+  default_config_hash: JILDybzBzIFFUgferBVwRd2euOkESeEVRNj8lCpJdg4
+id: quiz_result_answer.long_answer
+field_name: long_answer
+entity_type: quiz_result_answer
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

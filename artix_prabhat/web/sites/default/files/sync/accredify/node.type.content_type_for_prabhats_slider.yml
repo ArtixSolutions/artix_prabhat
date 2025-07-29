@@ -1,0 +1,17 @@
+uuid: 45befda1-0f98-4fbd-b9d3-d6ccdc7be8d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Content Type for Prabhats Slider'
+type: content_type_for_prabhats_slider
+description: 'Description of Content Type for Prabhats Slider'
+help: 'Submission Guidelines for Content Type for Prabhats Slider'
+new_revision: true
+preview_mode: 1
+display_submitted: false

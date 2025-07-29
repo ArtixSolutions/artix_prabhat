@@ -1,0 +1,18 @@
+uuid: 74a892f3-d4d9-40d9-a11f-42c2bd3c75e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.content_type_for_prabhats_slider
+id: node.content_type_for_prabhats_slider.title
+field_name: title
+entity_type: node
+bundle: content_type_for_prabhats_slider
+label: 'Content Type for Prabhats Slider'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

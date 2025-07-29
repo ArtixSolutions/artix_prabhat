@@ -1,0 +1,8 @@
+uuid: db4b80c9-20cf-4961-a6b9-10e1398ce7df
+langcode: en
+status: true
+dependencies: {  }
+id: social-icons
+label: 'Social Icons'
+description: 'Administrative Summary - Social Icons'
+locked: false
